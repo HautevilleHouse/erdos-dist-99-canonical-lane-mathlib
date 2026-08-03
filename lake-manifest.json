@@ -1,0 +1,32 @@
+{
+  "version": "1.2.0",
+  "packagesDir": ".lake/packages",
+  "packages": [
+    {
+      "url": "https://github.com/HautevilleHouse/canonical-lane-mathlib.git",
+      "type": "git",
+      "subDir": null,
+      "scope": "",
+      "rev": "18ec6fb1d6c29a2404ae5125c2e0d15585b57398",
+      "name": "canonical_lane_mathlib_core",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "18ec6fb1d6c29a2404ae5125c2e0d15585b57398",
+      "inherited": false,
+      "configFile": "lakefile.lean"
+    },
+    {
+      "url": "https://github.com/leanprover-community/mathlib4.git",
+      "type": "git",
+      "subDir": null,
+      "scope": "leanprover-community",
+      "rev": "v4.31.0",
+      "name": "mathlib",
+      "manifestFile": "lake-manifest.json",
+      "inputRev": "v4.31.0",
+      "inherited": false,
+      "configFile": "lakefile.lean"
+    }
+  ],
+  "name": "erdos_dist_99_canonical_lane_lean",
+  "lakeDir": ".lake"
+}
